@@ -1,0 +1,113 @@
+.subscribeContainer {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.9)
+}
+.subscribeForm {
+    position: relative;
+    background: rgba(25, 29, 55, 0.92);;
+    color: white;
+    animation: subscribeForm-turnout 1s linear;
+}
+.subscribeCloseButton {
+    width: 23px;
+    fill: white;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left: 35%;
+    background: none;
+    border: none;
+}
+.subscribeCloseButton:focus {
+    outline: none;
+}
+.subscribeFormContent {
+    display: flex;
+    flex-flow: column  nowrap;
+    justify-content: space-between;
+}
+.subscribeTitle {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+.mc-field-group {
+    flex-grow: 2;
+}
+.required.email {
+    width: 80%;
+    color: white;
+    max-width: 600px;
+    height: 24px;
+    margin-top: 10px;
+    background: none;
+    padding: 8px;
+    font-size: 16px;
+    font-family: Oswald, sans-serif;
+    caret-color: white;
+    border: solid 1px rgba(28,189,201,1);
+}
+#mc_embed_signup_scroll {
+    padding: 0 30px;
+    max-width: 1060px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.required.email:focus {
+    outline: none;
+}
+.required.email::placeholder {
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+}
+.innerFormSubscribeButton {
+    margin: 0 10%;
+    display: flex;
+    flex-grow: 1;
+    cursor: pointer;
+    padding: 9px 24px;
+    height: auto;
+    width: 100px;
+    color: white;
+    background: rgba(28,189,201,1);
+    border: none;
+    font-family: Oswald, sans-serif;
+    font-size: 15px;
+}
+.outerSubscribeButton {
+    margin: auto 0;
+    width: 15%;
+    padding: 1% 3.2%;
+    border: solid #373D6B 1px;
+    border-radius: 100px;
+    background: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #1CBDC9;
+    font-size: 0.6em;
+    font-weight: 300;
+    font-family: Oswald, sans-serif;
+}
+.outerSubscribeButton:hover {
+    color: #373D6B;
+    transition: 0.4s ease 0s;
+}
+.outerSubscribeButton:focus {
+    outline: none;
+}
+@media (max-width: 550px) {
+    .subscribeCloseButton {
+        width: 15px;
+    } 
+}

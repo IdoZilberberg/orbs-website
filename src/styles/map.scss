@@ -1,0 +1,26 @@
+.mapAnimationContainer {
+    position: relative;
+    max-width: 985px;
+    max-height: 58.883%;
+    animation-name: fade-in;
+}
+.mapImgContainer {
+    margin: auto; 
+    max-width: 100%;
+    padding-bottom: 58.883%;
+    height: 0;
+    background: url(../img/technologyPage/map.png);
+    background-size: 100%;
+
+}
+.mapNetImgContainer {
+    animation-name: technologyNetImg-zoom-fade-in;
+    animation-fill-mode: forwards;
+}
+.mapList {
+    animation-name: fade-in;   
+}
+.mapSwitch {
+    width: 6.09%;
+    animation-name: mapSwitch-zoom-fade-in;
+}

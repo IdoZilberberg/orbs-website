@@ -1,0 +1,73 @@
+.teamPageTitle {
+    font-size: 8em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    margin: 60px;
+    color:rgb(55, 61, 107);
+}
+.teamPageSubtitle {
+    letter-spacing: 0.1em;
+    color: rgb(232, 230, 230); 
+    font-size: 21px;
+    font-family: Nunito, sans-serif;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.teamContainer {
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.workerBlock {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    text-align: left;
+    width: 260px;
+    height: 460px;
+    margin: 30px;
+}
+.workerImg {
+    width: 100%;
+    height: 100%;
+}
+.workerImgContainer {
+    width: 260px;
+    height: 360px;
+}
+.workerHover {
+    background-color: rgba(7, 31, 78, 0.75);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 366px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1.7em;
+}
+.workerDescription {
+    margin: 0;
+    padding: 15px 5px;
+}
+
+.workerLink {
+    position: absolute;
+    bottom: 0;
+}
+.workerName {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.workerPosition {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+.workerLine {
+    border: none;
+    border-top: 1px dashed #1CBDC9;
+    width: 100%;
+}

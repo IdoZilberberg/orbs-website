@@ -1,0 +1,103 @@
+.newsPage {
+    margin: auto;
+    max-width: 870px;
+}
+.newsPageTitle {
+    font-size: 8em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+    color: rgb(55, 61, 107);
+}
+.newsPageSubtitleLine {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3%;
+}
+.updatesBlocksTitleLine {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.newsPageUpdatesHeader {
+    width: 25%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.newsPageIcon {
+    width: 14.69%;
+    margin-right: 15px;
+}
+.updatesBlockTitle {
+    margin: 5% 0;
+    font-size: 0.9em;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+}
+.newsMediaIcon {
+    margin-right: 15px;
+}
+.newsMediaContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mediaElement {
+    margin: 0 40px 40px 0;
+}
+.mdm-hero_mdm-hero--story_mdm-imageCover_mdm-hero--light {
+    width: 300px;
+    height: 200px;
+}
+.feedgrabbr_widget {
+    width: 80%;
+    margin: 30px auto;
+}
+.twitterFollowButton {
+    overflow: hidden;
+    text-decoration: none;
+    background-color: #1b95e0;
+    border-radius: 3px;
+    height: 0;
+    padding-bottom: 2%;
+    width: 15%;
+}
+.twitterFollowButton:hover {
+    background-color: #0c7abf; 
+}
+.twitterButtonIcon {
+    padding-top: 3%;
+    vertical-align: top;
+    width: 8%;
+}
+.twitterUpdatesContainer {
+    width: 80%;
+    margin: 5% auto;
+}
+.twitterButtonLabel {
+    display: inline-block;
+    padding-top: 3%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    font-size: 0.5em;
+    padding-left: 5px;
+    vertical-align: top;
+}
+.newsPageContactsLine {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 29%;
+}
+.newsPageContactsLineIcon {
+    width: 10%;
+    margin: 3%;
+}
+.newsPageContactsLineIcon img {
+   width: 100%;   
+}

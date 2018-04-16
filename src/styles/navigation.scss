@@ -1,0 +1,32 @@
+.defaultNavigationContainer {
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.defaultNavigationMenuItem {
+    padding: 30px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #1CBDC9;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+.defaultNavigationMenuItem:hover {
+    color: rgb(84, 96, 149);
+    transition: 0.4s ease 0s;
+}
+
+@media (max-width: 1024px) {
+    .defaultNavigationMenuItem {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 475px) {  
+    .headerNavigation {
+        flex-wrap: wrap;
+    }
+    .defaultNavigationContainer {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,67 @@
+.timeLine {
+    margin: 5% 0;
+}
+.timelineVertical {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    width: 0;
+    height: 0;
+    left: 50%;
+    border-left: 1px dashed rgb(28, 189, 201);
+}
+.timelineSectionTitle {
+    width: 15.3%;
+    font-family: Nunito, sans-serif;
+    font-size: 0.68em;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+}
+.timelineSectionAttribute {
+    width: 5.1%;
+    color: rgb(84, 96, 149);
+    font-family: Nunito, sans-serif;
+    font-size: 0.81em;
+}
+.timelineBlockHorisontal {
+    width: 13.9%;
+    border-top: 1px dashed rgb(28, 189, 201);
+}
+.timelineBlockLeft {
+    padding-top: 5%;
+    position: relative;
+    right: 19.89%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.timelineBlockRight {
+    padding-top: 5%;
+    position: relative;
+    left: 19.89%;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.timelineImg {
+    width: 100%;
+}
+.timelineImgAnimationContainer {
+    margin: 0 1%;
+    width: 2.9%;
+}
+.timelineYear {
+    font-family: Nunito, sans-serif;
+    font-size: 0.68em;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    margin: 3% 0;
+}
+.timelineBlocksContainer {
+    height: 0;
+}
+.timelineImgZoomContainer {
+    animation: timelineImgZoom;
+}

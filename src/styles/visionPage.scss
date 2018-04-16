@@ -1,0 +1,31 @@
+.visionPageTitle {
+    margin-bottom: 40px;
+    letter-spacing: 0.2em;
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    font-size: 7.15em;
+    letter-spacing: 0.2em;
+    color:rgb(55, 61, 107);
+}
+.visionPageSubtitle {
+    margin: 40px 0;
+    line-height: 1.7em;
+    font-family: Nunito,sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.15em;
+    font-weight: 200;
+}
+.visionPageImagesContainer {
+    max-width: 79%;
+    padding-bottom: 35%;
+    margin: 5% auto; 
+}
+.visionPageImagesContainer>img {
+    position: absolute;
+}
+.visionPageLeftBlockAnimationContainer {
+    animation-name: visionPageLeftBlockSlip;
+}
+.visionPageRightBlockAnimationContainer {
+    animation-name: visionPageRightBlockSlipFadeIn
+}

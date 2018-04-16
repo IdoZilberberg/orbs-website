@@ -1,0 +1,19 @@
+header {
+    position: relative;
+    width: 100%;
+}
+.headerContent {
+    max-height: 110px;
+    max-width: 980px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerNavigation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}

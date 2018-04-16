@@ -1,0 +1,29 @@
+.clientsPageTitle {
+    font-family: Oswald, sans-serif;
+    font-size: 5.45em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    margin: 40px;
+    color:rgb(55, 61, 107);
+}
+.clientsPageSubtitle {
+    letter-spacing: 0.1em;
+    font-size: 33px;
+    font-weight: 400;
+}
+.youtubeVideoContainer {
+	position: relative;
+	padding-bottom: 57.77%;
+	height: 0;
+    overflow: hidden;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.youtubeVideoContainer iframe, .youtubeVideoContainer object, .youtubeVideoContainer embed {
+	position:absolute;
+	top:0;
+    left:0;
+	width:100%;
+    height:100%;
+}
