@@ -1,0 +1,97 @@
+.technologyPage {
+    position: relative;
+    width: 51.73%;
+    margin: auto;
+}
+.technologyPageTitle {
+    margin-bottom: 40px;
+    letter-spacing: 0.2em;
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    font-size: 4.55em;
+    letter-spacing: 0.2em;
+    color:rgb(55, 61, 107);
+}
+.technologyWebContainer {
+    text-align: center;
+    padding-bottom: 20%;
+    margin: auto;
+    max-width: 600px;
+}
+.technologyWebImg {
+    animation-name: technologyWeb-zoom-fade-in;
+}
+.technologyPageList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    animation-name: fade-in;
+
+}
+.technologySubtitle {
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    font-size: 2.77em;
+    letter-spacing: 0.2em;
+    margin: 6.12% 0;
+    color:rgb(55, 61, 107);
+}
+.technologyPageListItemContent {
+    text-align: justify;
+    font-family: Nunito, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 2em;
+    color: #E8E6E6;;
+}
+.technologyPageListItemTitle {
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color: rgb(28, 189, 201);
+}
+.technologyPageListItem {
+    max-width: 440px;
+}
+.technologyParagraphContainer {
+    width: 72.44%;
+    margin: auto;
+}
+.technologyPagesParagraph {
+    color: #E8E6E6;
+    text-align: justify;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.1em;
+    letter-spacing: 0.1em;
+}
+.technologyImg {
+    position: absolute;
+    animation-name:  technologyImgSlip;
+    animation-fill-mode: forwards;
+}
+.technologyPageParagraphTitle {
+    margin-top: 5%;
+    color: #E8E6E6;
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+}
+.technologyPageParagraphSubTitle {
+    margin-bottom: 35px;
+    letter-spacing: 0.05em;
+    font-family: futura-lt-w01-book, sans-serif;
+    line-height: 1.45em;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 2.2em;
+}
+@media (max-width: 1024px) {
+    .technologyImg {
+        display: none;
+    }
+}

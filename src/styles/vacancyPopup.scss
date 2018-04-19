@@ -1,0 +1,85 @@
+.vacancyPopup {
+    z-index: 1;
+    color: black;
+    background: white;
+    height: 100vh;
+    width: 90vw;
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.vacancyPopupContent {
+    text-align: left;
+    height: 90%; 
+    width: 95%;
+    top: 5%;
+    margin: auto;
+    position: relative;
+    border: 1px solid black;
+    overflow-y: scroll;    
+}
+.vacancyPopupContent::-webkit-scrollbar {
+    display: none;
+    }
+.vacancyLogo {
+    display: inline-block;
+    margin: 1%;
+    max-width: 64px;
+}
+.vacancyPopupHeader {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.vacancyPopupTitle {
+    color: #373D6B;
+    display: inline-block;
+    font-size: 3.45em;
+    font-weight: 500;
+    margin: 1.8%;
+    letter-spacing: 0.05em;
+}
+.vacancyPopupCloseButton {
+    cursor: pointer;
+    margin: 2.4%;
+    float: right;
+    width: 23px;
+}
+.vacancyPopupSubtitle {
+    font-size: 1.5em;
+    font-weight: 200;
+    margin: 2.9%;
+}
+.vacancyPopupSectionTitle {
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 2.9%;
+}
+.vacancyPopupSectionList {
+    font-size: 0.9em;
+    font-weight: 200;
+    margin-left: 3.8%;
+}
+.vacancyApplyTitle {
+    color: #546095;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 2.9%;
+}
+.vacancyApplyBody {
+    margin: 0 0 50px 30px;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+@media (max-width: 475px) {
+    .vacancyLogo {
+        max-width: 32px;
+    }
+}

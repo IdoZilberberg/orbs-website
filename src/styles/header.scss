@@ -1,0 +1,29 @@
+header {
+    position: relative;
+    width: 100%;
+}
+.headerContent {
+    max-width: 980px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerNavigation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+@media (max-width:600px) {
+    .headerContent {
+        flex-flow: column nowrap;
+        align-items: center;        
+    }
+    .headerNavigation {
+        flex-flow: column;
+        align-items: center;
+    }
+}

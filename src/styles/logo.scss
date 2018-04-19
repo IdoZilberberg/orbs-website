@@ -1,0 +1,14 @@
+.defaultLogoBlock {
+    justify-content: center;
+    align-items: center;
+}
+.defaultLogoImg {
+    display: inline-block;
+    width: 40px;
+}
+.defaultLogoName {
+    display: inline-block;
+    margin: 10px;
+    width: 60px;
+    filter: brightness(0) invert(1)
+}
