@@ -14,7 +14,7 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
             break;
     }
 }
-const slashRemover = slug => slug.replace(/\//g,'slug');
+const slashRemover = slug => slug.replace(/\//g, 'slug');
 
 exports.createLayouts = ({ graphql, boundActionCreators }) => {
     const { createLayout } = boundActionCreators
@@ -41,7 +41,7 @@ exports.createLayouts = ({ graphql, boundActionCreators }) => {
                         }
                     });
                 }
-            )
+                )
                 resolve()
             })
     })

@@ -3,14 +3,8 @@ import ContactsLineComponent from './ContactsLineComponent';
 
 
 class ContactFormComponent extends React.Component {
-    componentWillMount() {
-        const emailJsScript = document.createElement('script');
-        emailJsScript.src = "https:dn.emailjs.com/dist/email.min.js";
-        emailJsScript.textContent = '(function(){emailjs.init("");})()';
-        document.body.appendChild(emailJsScript);
-    }
     render() {
-        const { content } =this.props;
+        const { content } = this.props;
         return (
             <div>
                 <h1 className='contactFormTitle'>{content.getInTouch}</h1>

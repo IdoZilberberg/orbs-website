@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import HeaderComponent from '../../components/HeaderComponent'
 import FooterComponent from '../../components/FooterComponent'
 import cloudVideo from '../../img/main/cloudVideo.mp4';

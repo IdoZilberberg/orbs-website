@@ -14,7 +14,7 @@ class LandingPageContainer extends React.Component {
         this.state = {
             footer: {
                 footerContent: props.data.allIndexJson.edges[0].node.footer,
-                navigation:props.data.allIndexJson.edges[0].node.navigation
+                navigation: props.data.allIndexJson.edges[0].node.navigation
             },
             content: props.data.allIndexJson.edges[0].node.landing,
             pathContext: props.pathContext.slug

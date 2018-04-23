@@ -10,7 +10,7 @@ class ContactPopupComponent extends React.Component {
         }
     }
     popupSwitch() {
-        this.setState ({ popupTrigger: !this.state.popupTrigger })
+        this.setState({ popupTrigger: !this.state.popupTrigger })
     }
     render() {
         const popupSwitch = this.popupSwitch.bind(this);
@@ -24,7 +24,7 @@ class ContactPopupComponent extends React.Component {
                 >
                     {content.contact}
                 </a>
-                <div className='contactPopup' style={{display : popupDisplayState}}>
+                <div className='contactPopup' style={{ display: popupDisplayState }}>
                     <div className='contactPopupBackgroundContainer' />
                     <div className='contactPopupPage'>
                         <div className='contactPopupPageContainer'>

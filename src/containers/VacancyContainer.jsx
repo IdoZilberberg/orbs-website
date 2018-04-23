@@ -11,11 +11,11 @@ class VacancyContainer extends React.Component {
         }
     }
     popupSwitch() {
-        this.setState ({ popupTrigger: !this.state.popupTrigger })
+        this.setState({ popupTrigger: !this.state.popupTrigger })
     }
     render() {
         const popupSwitch = this.popupSwitch.bind(this);
-        const { content, vacancy } =this.props;
+        const { content, vacancy } = this.props;
         let popupDisplayState = this.state.popupTrigger ? 'block' : 'none'
         const vacansiesColors = ['#1CBDC9', '#324158', '#536EB7'];
         const getRandomColor = colors => {

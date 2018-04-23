@@ -8,6 +8,7 @@ import githubIcon from '../../img/contactsLine/github.png';
 import linkedInIcon from '../../img/contactsLine/linkedin.png';
 import mediumIcon from '../../img/contactsLine/medium.png';
 import newsMediaIcon from '../../img/newsPage/newsMediaIcon.png';
+import { Helmet } from 'react-helmet';
 
 class NewsComponent extends Component {
     constructor(props) {
@@ -17,21 +18,15 @@ class NewsComponent extends Component {
             mediaList: props.data.allIndexJson.edges[0].node.mediaList
         }
     }
-    componentWillMount() {
-        const twitterGridScript = document.createElement('script');
-        const mediumUpdatesScript = document.createElement('script');
-        twitterGridScript.src = 'https://platform.twitter.com/widgets.js';
-        twitterGridScript.async = true;
-        document.body.appendChild(twitterGridScript);
-        mediumUpdatesScript.src = 'https://www.feedgrabbr.com/widget/fgwidget.js'
-        mediumUpdatesScript.async = true;
-        document.body.appendChild(mediumUpdatesScript);
-    }
     render() {
         const { content, mediaList } = this.state;
         const pathPrefix = process.env.NODE_ENV === 'development' ? '' : __PATH_PREFIX__;
         return (
             <div className='contentPage'>
+                <Helmet>
+                    <script async={true} type='text/javascript' src='https://platform.twitter.com/widgets.js' />
+                    <script async={true} type='text/javascript' src='https://www.feedgrabbr.com/widget/fgwidget.js' />
+                </Helmet>
                 <h1
                     className='newsPageTitle'
                 >

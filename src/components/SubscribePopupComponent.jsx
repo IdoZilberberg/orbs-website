@@ -16,9 +16,9 @@ class SubscribePopupComponent extends React.Component {
         let popupDisplayState = this.state.popupTrigger ? 'block' : 'none'
         return (
             <div>
-                <a 
-                onClick={popupSwitch}
-                className='outerSubscribeButton'
+                <a
+                    onClick={popupSwitch}
+                    className='outerSubscribeButton'
                 >
                     {content.subscribe}
                 </a>

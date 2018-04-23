@@ -29,6 +29,8 @@ class WorkerComponent extends Component {
                                           {worker.description}
                                     </p>
                                     <a
+                                          target='_blank'
+                                          rel='noopener noreferrer'
                                           className='workerLink'
                                           href={worker.link}
                                     >

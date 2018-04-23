@@ -147,147 +147,147 @@
                 "name": "DANIEL PELED",
                 "position": "PRESIDENT",
                 "description": "Daniel is the co-founder and CEO at PayKey, an Israeli Fintech startup with investors such as MasterCard and Santander InnoVentures. He is also a veteran member of the Israeli Bitcoin community and the first person in Israel to ICO a blockchain company. Daniel holds a LL.M and BS in Economics.",
-                "imageSrc": "img/team/danielPeled.jpg",
+                "imageSrc": "/img/team/danielPeled.jpg",
                 "link": "https://www.linkedin.com/in/dpeled/"
             },
             {
                 "name": "URIEL PELED​",
                 "position": "CO-FOUNDER",
                 "description": "Uriel co-founded Visualead, a AR/VR startup acquired by Alibaba. He is a former team leader at Mellanox, a leading Israeli high-tech company. Uriel holds a BSc summa cum laude in Electrical Engineering from the Technion.",
-                "imageSrc": "img/team/urielPeled.jpg",
+                "imageSrc": "/img/team/urielPeled.jpg",
                 "link": "https://www.linkedin.com/in/uriel-peled-61073b29/"
             },
             {
                 "name": "TAL KOL​",
                 "position": "CO-FOUNDER",
                 "description": "Tal co-founded Appixia, a mobile app startup acquired by Wix.com, and was Wix.com Head of Mobile Engineering. He is an expert in blockchain consumer applications, as Head of Engineering in Kin by Kik Interactive. Tal is an open source enthusiast, contributor to the React ecosystem and conference speaker. He holds BSc summa cum laude in Computer Engineering from the Technion and is a veteran of an elite section of the IDF 8200 unit.",
-                "imageSrc": "img/team/talKol.jpg",
+                "imageSrc": "/img/team/talKol.jpg",
                 "link": "https://www.linkedin.com/in/talkol/"
             },
             {
                 "name": "ORI ROTTENSTREICH​​​",
                 "position": "CHIEF RESEARCH OFFICER​​",
                 "description": "Ori Rottenstreich (PhD) is a computer scientist focused on network algorithms. He was a Postdoctoral Research Fellow at the department of Computer Science, Princeton University, received a BSc summa cum laude in Computer Engineering and a PhD degree from the Technion. He serves as an editor for the IEEE Journal on Selected Areas in Communications.",
-                "imageSrc": "img/team/oriRottenstreich.jpg",
+                "imageSrc": "/img/team/oriRottenstreich.jpg",
                 "link": "https://www.linkedin.com/in/ori-rottenstreich-648914153/"
             },
             {
                 "name": "ODED WERTHEIM",
                 "position": "CHIEF TECHNOLOGY OFFICER",
                 "description": "Prior to Orbs, Oded was a Principal Architect at Mellanox, in charge of the InfiniBand switch and physical layer architecture. Oded has over 10 years of experience with computer networks and architecture. He is a former contributor, editor and chair in technical working groups. Oded holds a BSc summa cum laude in Electrcial Engineering and a BSc in Physics from the Technion and an MBA with honors from Tel Aviv University.",
-                "imageSrc": "img/team/odedWertheim.jpg",
+                "imageSrc": "/img/team/odedWertheim.jpg",
                 "link": "https://www.linkedin.com/in/odedwertheim/"
             },
             {
                 "name": "KFIR DAMRI​​",
                 "position": "CHIEF STRATEGY & INNOVATION​​​​​",
                 "description": "Kfir is the founder of SpaceIL, working to land the first non-governmental spacecraft on the moon. He is a mentor and public speaker on entrepreneurship and strategic thinking as well as a cyber-security and computer networking expert. Kfir is a board member and advisor in a few business and social ventures and holds an MSc in Communication Systems Engineering. Kfir is a veteran of an elite section of the IDF 8200 unit.",
-                "imageSrc": "img/team/kfirDamri.jpg",
+                "imageSrc": "/img/team/kfirDamri.jpg",
                 "link": "https://www.linkedin.com/in/kfirdm/"
             },
             {
                 "name": "ODED NOAM​",
                 "position": "HEAD OF SYSTEMS ARCHITECTURE",
                 "description": "Oded is the founder of VidWatch and PhraseTech, technology startups. He has held senior engineering and management position's in several technology companies. Oded holds a BSc (cum laude) in Maths and Economics.",
-                "imageSrc": "img/team/odedNoam.jpg",
+                "imageSrc": "/img/team/odedNoam.jpg",
                 "link": "https://www.linkedin.com/in/odednoam/"
             },
             {
                 "name": "LEONID BEDER​​",
                 "position": "VP R&D​",
                 "description": "Leonid is a leading security and engineering professional, focusing on system security, cryptocurrency systems and various blockchain protocols and implementations. He is an all-around player and a technology geek with proven experience in management and hands-on development in multiple domains.",
-                "imageSrc": "img/team/leonidBeder.jpg",
+                "imageSrc": "/img/team/leonidBeder.jpg",
                 "link": "https://www.linkedin.com/in/leonidb/"
             },
             {
                 "name": "RAN MELAMED​​",
                 "position": "CHIEF OPERATING OFFICER",
                 "description": "Ran is the founder & former CEO of Tingz.me, a technology startup. He is an investment team member at Viola Growth capital fund and a financial professional in various Israeli companies. Ran holds a BSc in Physics and an MA in Economics from Tel Aviv University and is a veteran of an elite section of the IDF 8200 unit.",
-                "imageSrc": "img/team/ranMelamed.jpg",
+                "imageSrc": "/img/team/ranMelamed.jpg",
                 "link": "https://www.linkedin.com/in/ranmelamed/"
             },
             {
                 "name": "IDAN OFRAT",
                 "position": "VP PRODUCT",
                 "description": "Idan is a full-stack software engineer and a cyber-security expert. He is the founder & former CTO at Yeloha, a disruptive energy tech startup. Prior to that, Idan led the product and R&D at an IoT security startup. He Holds BSc cum laude in Computer Science and Management from Tel Aviv University.",
-                "imageSrc": "img/team/idanOfrat.jpg",
+                "imageSrc": "/img/team/idanOfrat.jpg",
                 "link": "https://www.linkedin.com/in/idanofrat/"
             },
             {
                 "name": "SHAI YALLIN",
                 "position": "VP ENGINEERING",
                 "description": "Shai is a software engineer, father, musician and cook. Prior to joining Orbs, he spent 7 years at Wix.com, where he was principal backend engineer, engineering manager and co-founder of the Backend Engineering Guild.",
-                "imageSrc": "img/team/shaiYallin.jpg",
+                "imageSrc": "/img/team/shaiYallin.jpg",
                 "link": "https://www.linkedin.com/in/electricmonk/"
             },
             {
                 "name": "BILLY ATTAR",
                 "position": "VP MARKETING",
                 "description": "Billy is the former VP Marketing at Pipl, where he built the marketing and business operations from the ground up and an early employee at Clicktale, with roles in almost every department in the company as it grew from eight employees to over 150 during his tenure. Billy holds a BS from NYU and an MBA from Texas A&M University.",
-                "imageSrc": "img/team/billyAttar.jpg",
+                "imageSrc": "/img/team/billyAttar.jpg",
                 "link": "https://www.linkedin.com/in/billyattar/"
             },
             {
                 "name": "DAVID YAKIRA​",
                 "position": "HEAD OF RESEARCH​​​​",
                 "description": "David holds an MSc from Prof. Amnon Shashua's Deep Learning Lab and a BSc summa cum laude in Mathematics and Physics, both from he Hebrew University of Jerusalem.",
-                "imageSrc": "img/team/davidYakira.jpg",
+                "imageSrc": "/img/team/davidYakira.jpg",
                 "link": "https://www.linkedin.com/in/david-yakira-922067129/"
             },
             {
                 "name": "EUGENE STEPHAN",
                 "position": "DIRECTOR OF STRATEGIC ALLIANCES",
                 "description": "Eugene's expertise is in cybersecurity and technological innovations, background in entrepreneurship and international business development for both the private and public sectors. Eugene currently specializes in innovations and collaborations in the blockchain, based on his wide network with leading technological companies.",
-                "imageSrc": "img/team/eugeneStephan.jpg",
+                "imageSrc": "/img/team/eugeneStephan.jpg",
                 "link": ""
             },
             {
                 "name": "JONATAN NOAM",
                 "position": "CHIEF COMMERCIAL OFFICER​​​​​",
                 "description": "Jonathan co-founded Africa's largest satellite ISP (acquired), Romania's first satellite TV platform (acquired) and Aeroam Technologies. He helped launch Israel's largest ISP (acquired), and others. Recently he managed BZ|DV, a consultancy managing projects such as India's fastest growing DTH platform. Jonathan holds a BA from TAU and an MBA from INSEAD.",
-                "imageSrc": "img/team/jonatanNoam.jpg",
+                "imageSrc": "/img/team/jonatanNoam.jpg",
                 "link": "https://www.linkedin.com/in/jnoam/"
             },
             {
                 "name": "RAN HAMMER",
                 "position": "GENERAL COUNSEL",
                 "description": "Ran is one of Israel's leading blockchain law practitioners having represented companies involved in blockchain offerings as well as digital currency and asset investing. He founded the blockchain, cryptocurrency and digital coin practice at GKH Law offices and has also specialized in corporate law, high-tech, venture capital and M&A. Ran holds an LLB summa cum laude from Haifa University.",
-                "imageSrc": "img/team/ranHammer.jpg",
+                "imageSrc": "/img/team/ranHammer.jpg",
                 "link": "https://www.linkedin.com/in/ran-hammer-32323278/"
             },
             {
                 "name": "AMIT BARKAN",
                 "position": "CHIEF INVESTMENT OFFICER",
                 "description": "Amit is the co-founder of Kaizen Financial Engineering, a quantitative social investment firm and ChargeAfter, the first financing network enabling instant consumer credit at the moment of sale. He conducted the world's first Bitcoin Hackathon in 2013 and is active in the crypto space for several years. Amit holds a BA in Computer Science and MBA in Strategy and Entrepreneurship.",
-                "imageSrc": "img/team/amitBarkan.jpg",
+                "imageSrc": "/img/team/amitBarkan.jpg",
                 "link": "https://www.linkedin.com/in/amitbarkanil/"
             },
             {
                 "name": "ANDREY DULKIN",
                 "position": "CHIEF TECHNOLOGY OFFICER",
                 "description": "Andrey is passionate about technology, and has both hands-on and leadership experience in cybersecurity research and innovation. A graduate of the Talpiot program, Andrey holds a BSc in Computer Sciences, Physics and Mathematics from the Hebrew University, an MBA cum laude from Tel Aviv University and an MA Law cum laude from Bar Ilan University.",
-                "imageSrc": "img/team/andreyDulkin.jpg",
+                "imageSrc": "/img/team/andreyDulkin.jpg",
                 "link": "https://www.linkedin.com/in/andrey-dulkin-3240a31/"
             },
             {
                 "name": "GAD COHEN",
                 "position": "RESEARCHER",
                 "description": "Gad holds an MSc in Computer Science and a BSc in Computer Science and Psychology, both from the Hebrew University of Jerusalem. He is the former Chief Software Engineer at Artsignet ans a software developer at NDS.",
-                "imageSrc": "img/team/gadCohen.jpg",
+                "imageSrc": "/img/team/gadCohen.jpg",
                 "link": "https://www.linkedin.com/in/gad-cohen-lev-ari/"
             },
             {
                 "name": "IDO GRAYEVSKY",
                 "position": "RESEARCHER",
                 "description": "Ido holds an MSc in Mathematics from the Hebrew University of Jerusalem, focusing on Group Theory. He holds a BSc summa cum laude in Mathematics and European history, also from the Hebrew Univesity.",
-                "imageSrc": "img/team/idoGrayevsky.jpg",
+                "imageSrc": "/img/team/idoGrayevsky.jpg",
                 "link": ""
             },
             {
                 "name": "RONEN TAMARI",
                 "position": "RESEARCHER",
                 "description": "Ronen holds an MSc from Prof. Amnon Shashua's Deep Learning Lab and a BSc in Computer Engineering, both from the Hebrew University of Jerusalem. He has worked as a software developer in a startup using computer vision algorithms to assist law enforcement and served in an elite technological unit of the IDF Intelligence Corps as a data researcher and analyst.",
-                "imageSrc": "img/team/ronenTamari.jpg",
+                "imageSrc": "/img/team/ronenTamari.jpg",
                 "link": "https://www.linkedin.com/in/ronen-tamari-11482189/"
             },
             {
@@ -301,63 +301,63 @@
                 "name": "MAYA LESHKOWITZ",
                 "position": "RESEARCHER",
                 "description": "Maya holds an MSc from the Weizmann Institute of Science in Theory of Computer Science under the supervision of Prof. Oded Goldriech. She holds a BSc cum laude in Mathematics and Computer Science from the Hebrew University of Jerusalem.",
-                "imageSrc": "img/team/mayaLeshkowitz.jpg",
+                "imageSrc": "/img/team/mayaLeshkowitz.jpg",
                 "link": "https://www.linkedin.com/in/maya-leshkowitz-20bb71147/"
             },
             {
                 "name": "NAAMA HADAD",
                 "position": "RESEARCHER",
                 "description": "Naama is an economist and data analyst, formerly an algorithms engineer at Altair and a programmer and algorithms engineer at the Prime Minister's Office. She holds a BSc summa cum laude in Electrical Engineering and Computer Science from the Tel-Aviv University and an MSc magna cum laude in Financial Math.",
-                "imageSrc": "img/team/naamaHadad.jpg",
+                "imageSrc": "/img/team/naamaHadad.jpg",
                 "link": "https://www.linkedin.com/in/naama-hadad-024b8031/"
             },
             {
                 "name": "AVI ASAYAG",
                 "position": "RESEARCHER",
                 "description": "Avi is currently finishing his BSc in Mathematics, Physics and Computer Science, at the Hebrew University​. He is the former CTO at Moveo Group and a full stack software developer.",
-                "imageSrc": "img/team/aviAsayag.jpg",
+                "imageSrc": "/img/team/aviAsayag.jpg",
                 "link": "https://www.linkedin.com/in/avi-asayag-4201bb121/"
             },
             {
                 "name": "MARINA RUDINSKY",
                 "position": "HEAD OF DESIGN",
                 "description": "Marina is graphic designer & UI expert for the past 10 years and has worked with several amazing startups. She lives and breath creative thinking, problem solving, visualizing projects and great user experience. Marina tries to make people smile through good design and an open mind.",
-                "imageSrc": "img/team/marinaRudinsky.jpg",
+                "imageSrc": "/img/team/marinaRudinsky.jpg",
                 "link": "https://www.linkedin.com/in/marinarudinsky/"
             },
             {
                 "name": "OREN DE LANGE",
                 "position": "DIRECTOR OF FINANCE",
                 "description": "Oren is an accountant and lawyer, having worked at Ernst & Young and the Israeli Ministry of Justice prior to joining Orbs. He's active crypto enthusiast since 2014 and holds an LLB in Law and BA in Business Administration, both cum laude, from IDC Herzliya.",
-                "imageSrc": "img/team/orenDeLange.jpg",
+                "imageSrc": "/img/team/orenDeLange.jpg",
                 "link": "https://www.linkedin.com/in/oren-de-lange-b79b1a17/"
             },
             {
                 "name": "KIRIL MAKSIMOV",
                 "position": "SENIOR BACKEND ENGINEER",
                 "description": "Kirill is infrastructure and cloud computing enthusiast. Prior to joining Orbs he was working on Big Data solutions in IronSource. He enjoys travelling, learning new laguages, and loves his cats.",
-                "imageSrc": "img/team/kirillMaksimov.jpg",
+                "imageSrc": "/img/team/kirillMaksimov.jpg",
                 "link": "https://www.linkedin.com/in/netoneko/"
             },
             {
                 "name": "SUZANA BOBIS",
                 "position": "PA TO CO FOUNDERS",
                 "description": "Suzan holds a BA in Communications and Management and an MBA in Marketing from the College of Management. Prior to Orbs, she was the PA to the CEO and co-founders of Mindspace and a PA at the Alrov Group as well as holding other position's in marketing.",
-                "imageSrc": "img/team/suzanaBobis.jpg",
+                "imageSrc": "/img/team/suzanaBobis.jpg",
                 "link": "https://www.linkedin.com/in/suzana-bobis-aa1bab131/"
             },
             {
                 "name": "BAR CHETRIT",
                 "position": "PEOPLE AND OPERATION MANAGER",
                 "description": "Bar is a former HR manager at a real estate startup. She is a people oriented person and passionate about relationship building. Bar holds a B.A in Behavioral Sciences, majoring in Human Resources from Tel-Aviv-Jaffa Academic College.​",
-                "imageSrc": "img/team/barCherit.jpg",
+                "imageSrc": "/img/team/barCherit.jpg",
                 "link": "https://www.linkedin.com/in/bar-chetrit-61207997/"
             },
             {
                 "name": "DISHENG ZHENG",
                 "position": "COMMUNITY MANAGER ASIA",
                 "description": "Prior to Orbs, Disheng was the Technology Director at TyonTech, a leading Chinese surface engineering company, a big data engineer at Yaspeed and a design engineer at AT&T. He holds a BSc in Materials Engineering and Statistics from the University of California, Davis, an MSc in Information Science from Cornell University, the Technion and an MBA from Bar Ilan University.",
-                "imageSrc": "img/team/dishengZheng.jpg",
+                "imageSrc": "/img/team/dishengZheng.jpg",
                 "link": "https://www.linkedin.com/in/disheng-zheng-8612369b/"
             }
         ],

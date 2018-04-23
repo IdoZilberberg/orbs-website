@@ -1,8 +1,26 @@
 import React from 'react';
 import favicon from './icon.ico';
 
+let inlinedStyles = '';
+if (process.env.NODE_ENV === 'production') {
+  try {
+    inlinedStyles = require('!raw-loader!../public/styles.css');
+  } catch (e) {
+    console.log(e);
+  }
+}
+
 export default class HTML extends React.Component {
   render() {
+    let css;
+    if (process.env.NODE_ENV === 'production') {
+      css = (
+        <style
+          id="gatsby-inlined-css"
+          dangerouslySetInnerHTML={{ __html: inlinedStyles }}
+        />
+      );
+    }
     return (
 
       <html lang="en">
@@ -17,6 +35,7 @@ export default class HTML extends React.Component {
           <link rel="shortcut icon" href={favicon} />
           <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Oswald:400,700,300,200,500" rel="stylesheet" />
+          {css}
         </head>
         <body>
           <div

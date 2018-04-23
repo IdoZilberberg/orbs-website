@@ -43,7 +43,7 @@ const FooterComponent = ({ content, pathContext }) => {
                     offset={1000}
                     animateOnce
                     animateIn='footerAnimateContainer'
-                    style={{marginTop: '20px'}}
+                    style={{ marginTop: '20px' }}
                 >
                     <div className='copyright'>{content.footerContent.allRightsReserved}</div>
                     <div>
