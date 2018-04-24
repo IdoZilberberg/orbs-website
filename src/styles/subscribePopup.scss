@@ -85,25 +85,6 @@
     font-family: Oswald, sans-serif;
     font-size: 15px;
 }
-.outerSubscribeButton {
-    padding: 5% 30%;
-    border: solid #373D6B 1px;
-    border-radius: 100px;
-    background: none;
-    text-decoration: none;
-    cursor: pointer;
-    color: #1CBDC9;
-    font-size: 15px;
-    font-weight: 300;
-    font-family: Oswald, sans-serif;
-}
-.outerSubscribeButton:hover {
-    color: #373D6B;
-    transition: 0.4s ease 0s;
-}
-.outerSubscribeButton:focus {
-    outline: none;
-}
 @media (max-width: 550px) {
     .subscribeCloseButton {
         width: 15px;  

@@ -17,17 +17,16 @@ class ContactPopupComponent extends React.Component {
         const { content } = this.props;
         let popupDisplayState = this.state.popupTrigger ? 'block' : 'none'
         return (
-            <div>
+            <div className='defaultNavigationMenuItem'>
                 <a
                     onClick={(popupSwitch)}
-                    className='defaultNavigationMenuItem'
                 >
                     {content.contact}
                 </a>
-                <div className='contactPopup' style={{ display: popupDisplayState }}>
+                <div className='fullScreenPopup' style={{ display: popupDisplayState }}>
                     <div className='contactPopupBackgroundContainer' />
-                    <div className='contactPopupPage'>
-                        <div className='contactPopupPageContainer'>
+                    <div className='fullScreenPopupPage'>
+                        <div className='fullScreenPopupPageContainer'>
                             <div
                                 className='contactCloseButton'
                                 onClick={popupSwitch}
@@ -47,11 +46,11 @@ class ContactPopupComponent extends React.Component {
                                     </g>
                                 </svg>
                             </div>
-                            <div className='contactPopupContent'>
+                            <div className='fullScreenPopupContent'>
                                 <LogoComponent
-                                    logoBlockClass='contactPopupLogoBlock'
-                                    logoImgClass='contactPopupImg'
-                                    logoNameClass='contactPopupName'
+                                    logoBlockClass='fullScreenPopupLogoBlock'
+                                    logoImgClass='fullScreenPopupImg'
+                                    logoNameClass='fullScreenPopupName'
                                 />
                                 <ContactFormComponent
                                     content={content}

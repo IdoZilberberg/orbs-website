@@ -16,6 +16,11 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 }
 const slashRemover = slug => slug.replace(/\//g, 'slug');
 
+exports.modifyWebpackConfig = (config, stage) => {
+    config.config._config.externals = {emailjs:'emailjs'};
+  return config
+};
+
 exports.createLayouts = ({ graphql, boundActionCreators }) => {
     const { createLayout } = boundActionCreators
     return new Promise((resolve, reject) => {

@@ -14,12 +14,16 @@ class ContentLayout extends React.Component {
     this.state = {
       pathContext: props.layoutContext.slug,
       header: {
-        navigation: props.data.allIndexJson.edges[0].node.navigation,
-        contactPopup: props.data.allIndexJson.edges[0].node.contactForm,
-        subscribePopup: props.data.allIndexJson.edges[0].node.subscribeForm
+          navigation: props.data.allIndexJson.edges[0].node.navigation,
+          contactPopup: props.data.allIndexJson.edges[0].node.contactForm,
+          subscribePopup: props.data.allIndexJson.edges[0].node.subscribeForm
       },
       footer: {
-        navigation: props.data.allIndexJson.edges[0].node.navigation,
+        navigation: {
+          navigation: props.data.allIndexJson.edges[0].node.navigation,
+          contactPopup: props.data.allIndexJson.edges[0].node.contactForm,
+          subscribePopup: props.data.allIndexJson.edges[0].node.subscribeForm
+        },
         footerContent: props.data.allIndexJson.edges[0].node.footer
       }
     }
@@ -70,14 +74,14 @@ export const query = graphql`
  			node {
          navigation {
              about
-             vision
              technology
              clients
              careers
              team
              news
              contact
-             subscribe 
+             subscribe
+             positionPaper
          }
          contactForm {
              getInTouch

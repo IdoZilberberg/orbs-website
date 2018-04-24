@@ -1,0 +1,32 @@
+.positionPaperPopupTitle {
+    font-size: 4em;
+    color: rgb(7, 219, 217);
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin: 10% 0 5.5% 0;
+}
+.positionPaperCloseButton {
+    width: 37px;
+    fill: rgb(7, 219, 217);
+    position: absolute;
+    right: 23%;
+    top: 0;
+    margin-top: 7%
+}
+.positionPaperPopupSubtitle {
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+.positionPaperPopupOpenButton {
+    padding: 1.5% 2%;
+    width: 20%;
+    margin: 1% auto;
+    background: rgba(24, 193, 192, 1);
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(55, 61, 107);
+}

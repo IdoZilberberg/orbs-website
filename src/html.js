@@ -35,6 +35,7 @@ export default class HTML extends React.Component {
           <link rel="shortcut icon" href={favicon} />
           <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Oswald:400,700,300,200,500" rel="stylesheet" />
+          <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
           {css}
         </head>
         <body>

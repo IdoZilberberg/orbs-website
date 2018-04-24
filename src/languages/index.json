@@ -8,14 +8,14 @@
         },
         "navigation": {
             "about": "ABOUT",
-            "vision": "VISION",
             "technology": "TECHNOLOGY",
             "clients": "CLIENTS",
             "careers": "CAREERS",
             "team": "TEAM",
             "news": "NEWS",
             "contact": "CONTACT",
-            "subscribe": "SUBSCRIBE"
+            "subscribe": "SUBSCRIBE",
+            "positionPaper": "POSITION PAPER"
         },
         "contactForm": {
             "getInTouch": "GET IN TOUCH",
@@ -77,7 +77,7 @@
             "consensusBasedRightSecond": "storage services",
             "theCoreDifference": "The core difference between Orbs and other blockchains is that Orbs is built from the ground",
             "upForTheConsumer": "up for the consumer application market and tailored to its very specific set of requirements.",
-            "whitepaper": "Whitepaper comming soon",
+            "readThePosition": "Read the position paper",
             "architecture": "ARCHITECTURE",
             "consensusAlgorithm": "CONSENSUS ALGORITHM",
             "technicalPaper": "Technical paper comming soon",
@@ -98,6 +98,12 @@
             "modernDeployment": "Modern Deployment Paradigms",
             "largeScale": "Large scale applications with millions of users cannot simply deploy or upgrade their application at once and hope for the best. Orbs offers the features necessary for manageable deployments, including: versions, migrations and multi-chains.",
             "ourClients": "OUR CLIENTS"
+        },
+        "positionPaper": {
+            "readThePosition": "Read the position paper",
+            "positionPaper": "POSITION PAPER",
+            "getAllOf": "Get all of the details about Orbs",
+            "open": "OPEN"
         },
         "timeline": {
             "timeline": "TIMELINE",

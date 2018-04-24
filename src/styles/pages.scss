@@ -61,6 +61,46 @@ body {
 .fadeInAnimationContainer {
     animation-name: fade-in;
 }
+.fullScreenPopup {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(25, 29, 55);
+}
+.fullScreenPopupPageContainer {
+    text-align: center;;
+    width: 90%;
+    max-width: 736px;
+    margin: auto;
+    padding-top: 7%;
+}
+.fullScreenPopupPage {
+    width: 100vw;
+    height: 100vh;
+    transition: 2s;
+    animation: fade-in 3s linear;
+}
+.fullScreenPopupLogoBlock {
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 8.85%;
+}
+.fullScreenPopupImg {
+    width: 100%;
+}
+.fullScreenPopupName {
+    width: 100%;
+    filter: brightness(0) invert(1)
+}
+.fullScreenPopupContent {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
 @media (max-width: 1024px) {
     body {
         font-size: 0.8rem;

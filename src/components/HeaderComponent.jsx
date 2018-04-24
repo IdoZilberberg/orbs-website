@@ -13,19 +13,7 @@ const HeaderComponent = ({ content, pathContext }) => {
                 <div className='headerNavigation'>
                     <NavigationComponent
                         pathContext={pathContext}
-                        content={content.navigation}
-                    />
-                    <ContactPopupComponent
-                        content={{
-                            ...content.contactPopup,
-                            contact: content.navigation.contact
-                        }}
-                    />
-                    <SubscribePopupComponent content={{
-                        ...content.subscribePopup,
-                        subscribe: content.navigation.subscribe,
-                        backToSite: content.contactPopup.backToSite
-                    }}
+                        content={content}
                     />
                 </div>
             </div>

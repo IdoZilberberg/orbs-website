@@ -6,6 +6,7 @@ import tech5 from '../../img/technologyPage/tech5.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import outline from '../../img/technologyPage/outline.png';
 import TimelineComponent from '../../components/TimelineComponent';
+import PositionPaperPopupComponent from '../../components/PositionPaperPopupComponent'
 
 
 class TechnologyComponent extends React.Component {
@@ -13,11 +14,12 @@ class TechnologyComponent extends React.Component {
         super(props);
         this.state = {
             content: props.data.allIndexJson.edges[0].node.technologyPage,
-            timelineContent: props.data.allIndexJson.edges[0].node.timeline
+            positionPaperContent: props.data.allIndexJson.edges[0].node.positionPaper,
+            timelineContent: props.data.allIndexJson.edges[0].node.timeline,
         }
     }
     render() {
-        const { content, timelineContent } = this.state;
+        const { content, positionPaperContent, timelineContent } = this.state;
         return (
             <div className='contentPage'>
                 <h1
@@ -106,13 +108,9 @@ class TechnologyComponent extends React.Component {
                     <br />
                     {content.upForTheConsumer}
                 </p>
-                <a>
-                    <button
-                        className='linkButton'
-                    >
-                        {content.whitepaper}
-                    </button>
-                </a>
+                <PositionPaperPopupComponent
+                    content={positionPaperContent}
+                />
                 <hr
                     color='#546095'
                     width='100%'
@@ -311,7 +309,6 @@ query TechnologyPageQuery($slug: String!) {
                     consensusBasedRightSecond
                     theCoreDifference
                     upForTheConsumer
-                    whitepaper
                     architecture
                     consensusAlgorithm
                     technicalPaper
@@ -332,6 +329,12 @@ query TechnologyPageQuery($slug: String!) {
                     modernDeployment
                     largeScale
                     ourClients
+                }
+                positionPaper {
+                    readThePosition
+                    positionPaper
+                    getAllOf
+                    open
                 }
                 timeline {
                     timeline

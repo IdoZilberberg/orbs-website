@@ -32,12 +32,6 @@ const FooterComponent = ({ content, pathContext }) => {
                         pathContext={pathContext}
                         content={content.navigation}
                     />
-                    <ContactPopupComponent
-                        content={{
-                            ...content.contactPopup,
-                            cotact: content.navigation.contact
-                        }}
-                    />
                 </div>
                 <ScrollAnimation
                     offset={1000}

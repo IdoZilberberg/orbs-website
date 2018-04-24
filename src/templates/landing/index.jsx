@@ -13,14 +13,19 @@ class LandingPageContainer extends React.Component {
         super(props);
         this.state = {
             footer: {
-                footerContent: props.data.allIndexJson.edges[0].node.footer,
-                navigation: props.data.allIndexJson.edges[0].node.navigation
+                navigation: {
+                    navigation: props.data.allIndexJson.edges[0].node.navigation,
+                    contactPopup: props.data.allIndexJson.edges[0].node.contactForm,
+                    subscribePopup: props.data.allIndexJson.edges[0].node.subscribeForm
+                },
+                footerContent: props.data.allIndexJson.edges[0].node.footer
             },
             content: props.data.allIndexJson.edges[0].node.landing,
             pathContext: props.pathContext.slug
         }
     }
     render() {
+        console.log(this.state)
         const { content, pathContext, footer } = this.state;
         return (
             <div className='landingPage'>
@@ -89,7 +94,6 @@ query LandingPageQuery($slug: String!) {
                 }
                 navigation {
                     about
-                    vision
                     technology
                     clients
                     careers
@@ -97,11 +101,26 @@ query LandingPageQuery($slug: String!) {
                     news
                     contact
                     subscribe 
+                    positionPaper
                 }
                 footer {
                     allRightsReserved
                     termOfUse
                     privatPolicy
+                }
+                contactForm {
+                    getInTouch
+                    name
+                    email
+                    message
+                    send
+                    backToSite
+                }
+                subscribeForm {
+                    neverMiss
+                    yourEmail
+                    subscribe
+                    pleaseFill
                 }
             }
 		}

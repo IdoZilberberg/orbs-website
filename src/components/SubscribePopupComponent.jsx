@@ -15,10 +15,9 @@ class SubscribePopupComponent extends React.Component {
         const { content } = this.props;
         let popupDisplayState = this.state.popupTrigger ? 'block' : 'none'
         return (
-            <div>
+            <div className='defaultNavigationMenuItem'>
                 <a
                     onClick={popupSwitch}
-                    className='outerSubscribeButton'
                 >
                     {content.subscribe}
                 </a>
