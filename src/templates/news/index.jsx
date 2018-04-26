@@ -187,7 +187,7 @@ class NewsComponent extends Component {
                         </a>
                     </div>
                     <div>
-                        <div className='feedgrabbr_widget' id='fgid_0b3b5af1a2ef59714b5fbfcd0' />
+                        <div className='feedgrabbr_widget' id='fgid_074c83aa230c304e571def4ef' />
                     </div>
                 </div>
                 <div>
